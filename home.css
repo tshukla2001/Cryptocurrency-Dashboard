@@ -1,0 +1,75 @@
+body{
+    background-color: #2C3333;
+}
+
+#navhead{
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.navlinks{
+    font-size: 1.2rem;
+}
+
+.navbar-nav{
+    margin-left: auto;
+    color: white;
+}
+
+.nav-item{
+    font-family: 'Sansita', sans-serif;
+    margin-left: 3rem;
+}
+
+.coin-main-container{
+    margin: 3% 0 0 5%;
+}
+
+.coin-main-container, .coinPrice{
+    display: flex;
+}
+
+.coin-main-container h5{
+    margin-left: 1rem;
+}
+
+
+#btc, #eth, #usdt, #usdc{
+    background-color: #395B64;
+    color: #E7F6F2;
+    margin-right: 5rem;
+    padding: 1rem 1.5rem 0.5rem;
+    border-radius: 2rem;
+    font-family: 'Laila', sans-serif;
+}
+
+#usdc{
+    margin-right: 0;
+}
+
+.coinPrice img{
+    height: 4rem;
+    width: 4rem;
+    position: relative;
+}
+
+.coincontent{
+    margin-left: 1rem;
+}
+
+.coincontent p{
+    margin-left: 1rem;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+#btcImg{
+    height: 3.8rem;
+    width: 3.8rem;
+}
+
+#usdImg{
+    height: 4.5rem;
+    width: 4.5rem;
+}
