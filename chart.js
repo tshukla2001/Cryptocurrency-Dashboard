@@ -1,6 +1,6 @@
 import * as cryptoPrices from "./home.js";
 const ctx = document.getElementById("chart1").getContext("2d");
-debugger;
+
 const myChart = new Chart(ctx, {
 	type: "bar",
 	data: {
