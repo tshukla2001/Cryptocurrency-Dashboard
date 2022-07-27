@@ -1,5 +1,6 @@
 import * as cryptoPrices from "./home.js";
 const ctx = document.getElementById("chart1").getContext("2d");
+debugger;
 const myChart = new Chart(ctx, {
 	type: "bar",
 	data: {
@@ -15,12 +16,12 @@ const myChart = new Chart(ctx, {
 			{
 				label: "Price of Cryptocurrencies",
 				data: [
-					cryptoPrices[0],
-					cryptoPrices[1],
-					cryptoPrices[2],
-					cryptoPrices[3],
-					cryptoPrices[4],
-					cryptoPrices[5],
+					cryptoPrices.bitcoin,
+					cryptoPrices.ethereum,
+					cryptoPrices.tether,
+					cryptoPrices.usdCoin,
+					cryptoPrices.binanceCoin,
+					cryptoPrices.binanceUSD,
 				],
 				backgroundColor: [
 					"rgba(255, 99, 132, 0.2)",
